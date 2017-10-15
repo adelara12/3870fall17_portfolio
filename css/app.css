@@ -6,15 +6,26 @@ nav {border:1px solid black;}
 #portfoliopage .mainnavigation li:nth-child(1) {background-color: yellow;}
 #aboutpage .mainnavigation li:nth-child(1) {background-color: yellow;}
 
-h1 {text-align: center;}
+h1 {
+  text-align: center;
+  font-family: 'Julius Sans One', sans-serif;
+}
+
+h2 {
+  font-family: 'Pacifico', cursive;
+}
+
+body {
+  background-color: #FFE8D1
+}
+
 
 .gray {
   background-color: #686963;
+  text-align: center;
+
 }
 
-.blue {
-  background-color: #68C3D4
-}
 
 /* Add a black background color to the top navigation */
 .topnav {
